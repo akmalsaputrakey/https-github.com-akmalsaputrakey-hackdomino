@@ -1,2 +1,2 @@
-# akmal
-Pantang menyerah 
+Akmal
+dominoheck
