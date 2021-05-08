@@ -1,0 +1,2 @@
+# akmal
+Pantang menyerah 
