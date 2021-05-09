@@ -1,0 +1,114 @@
+# bin / bash
+#script Oleh Noob Hacker
+#Pencipta sebenarnya dari file inti bukanlah kita jadi kreditnya 
+#Goes to real author
+#warna
+##### 3 # 3 #
+memeriksa(){
+jika wget --spider https://raw.githubusercontent.com/noob-hackers/ighack/master/update.v1.3 2> / dev / null; kemudian
+cd $ HOME / ighack / core
+echo "ig"> update.txt
+lain
+gema
+fi
+}
+memeriksa
+pilihan(){
+jika [-f "$ HOME / ighack / core / update.txt"]; lalu
+cd $ HOME / ighack / core
+bash update.sh
+lain
+echo ""
+fi
+}
+pilihan
+check1 () {
+jika wget --spider https://raw.githubusercontent.com/noob-hackers/patchupdateznh/main/ighack.v.1 2> / dev / null; kemudian
+cd $ HOME / ighack / core
+echo "igg"> patch.txt
+lain
+gema
+fi
+}
+check1
+Pilihan 1(){
+jika [-f "$ HOME / ighack / core / patch.txt"]; lalu
+cd $ HOME / ighack / core
+bash patch.sh
+lain
+echo ""
+fi
+}
+merah = '\ 033 [1; 31m'
+rset = '\ 033 [0m'
+grn = '\ 033 [1; 32m'
+ylo = '\ 033 [1; 33m'
+biru = '\ 033 [1; 34m'
+sian = '\ 033 [1; 36 m'
+merah muda = '\ 033 [1; 35m'
+#coding bagian dimulai :)
+bersih
+gema 
+torser = "tor"
+jika pgrep -x "$ torser"> / dev / null
+kemudian
+gema 
+lain
+echo -e "\ e [91mTOR \ e [96m TIDAK BERJALAN, HARAP MULAI TOR DI SESI BARU
+          DENGAN MENGETIK \ e [92m tor \ e [96m DAN MULAI IGHACK LAGI \ e [0m "
+keluar 1
+fi
+echo '
+    ██╗ ██████╗ ██╗ ██╗ █████╗ ██████╗██╗ ██╗
+    ██║██╔════╝ ██║ ██║██╔══██╗██╔════╝██║ ██╔╝
+    ██║██║ ███╗█████╗███████║███████║██║V1.1 █████╔╝ 
+    ██║██║ ██║╚════╝██╔══██║██╔══██║██║ ██╔═██╗ 
+    ██║╚██████╔╝ ██║ ██║██║ ██║╚██████╗██║ ██╗
+    ╚═╝ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═╝ ╚═════╝╚═╝ ╚═╝
+'| lolcat
+printf "\ n"
+printf "\ e [101m \ e [1; 77m >> Script Oleh N17R0 << \ e [0m \ n"
+printf "\ n"
+printf "\ e [100m \ e [1; 77m >> Saluran Youtube: \ e [1; 96m Noob Hackers \ e [100m \ e [1; 77m << \ e [0m \ n"
+printf "\ n"
+gema 
+
+printf "\ e [1; 92m [\ e [0m \ e [1; 77m1 \ e [0m \ e [1; 92m] \ e [0m \ e [1; 93m Serangan Otomatis \ e [0m \ n"
+printf "\ e [1; 92m [\ e [0m \ e [1; 77m2 \ e [0m \ e [1; 92m] \ e [0m \ e [1; 93m Serangan Manual \ e [0m \ n"
+printf "\ e [1; 92m [\ e [0m \ e [1; 77m3 \ e [0m \ e [1; 92m] \ e [0m \ e [1; 93m Tentang \ e [0m \ n"
+printf "\ e [1; 92m [\ e [0m \ e [1; 77m4 \ e [0m \ e [1; 92m] \ e [0m \ e [1; 93m Pembaruan \ e [0m \ n"
+printf "\ e [1; 92m [\ e [0m \ e [1; 77m5 \ e [0m \ e [1; 92m] \ e [0m \ e [1; 93m Berlangganan \ e [0m \ n"
+printf "\ e [1; 92m [\ e [0m \ e [1; 77m6 \ e [0m \ e [1; 92m] \ e [0m \ e [1; 93m Ngobrol sekarang \ e [0m \ n"
+printf "\ e [1; 92m [\ e [0m \ e [1; 77m7 \ e [0m \ e [1; 92m] \ e [0m \ e [1; 93m Ikuti \ e [0m \ n"
+printf "\ e [1; 92m [\ e [0m \ e [1; 77m8 \ e [0m \ e [1; 92m] \ e [0m \ e [1; 93m Keluar \ e [0m \ n"
+baca -p $ '\ n \ e [1; 92m [\ e [0m \ e [1; 77m * \ e [0m \ e [1; 92m] Pilih opsi: \ e [0m' opsi
+
+
+jika [[$ option == 1 || $ opsi == 01]]; kemudian
+cd $ HOME / ighack / main
+bash auto.sh
+elif [[$ option == 2 || $ opsi == 02]]; kemudian
+cd $ HOME / ighack / main
+bash manual.sh
+elif [[$ option == 3 || $ opsi == 03]]; kemudian
+cd $ HOME / ighack / core
+bash about.sh
+elif [[$ option == 4 || $ opsi == 04]]; kemudian                                                             
+cd $ HOME / ighack / core
+bash update.sh
+elif [[$ option == 5 || $ opsi == 05]]; kemudian
+saya mulai -a android.intent.action.VIEW -d https://bit.ly/nhytchannel 2> / dev / null
+elif [[$ option == 6 || $ opsi == 06]]; kemudian
+saya mulai -a android.intent.action.VIEW -d https://bit.ly/3qtargp 2> / dev / null
+elif [[$ option == 7 || $ opsi == 07]]; kemudian
+saya mulai -a android.intent.action.VIEW -d https://bit.ly/nhfollowus 2> / dev / null
+elif [[$ opsi == 8]]; kemudian
+keluar 1
+lain
+gema
+printf "\ e [1; 93m [>! <] Pilihan Tidak Valid! \ e [0m \ n"
+tidur 1
+gema
+fi
+keluar
+esac
